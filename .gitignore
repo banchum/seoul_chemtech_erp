@@ -1,0 +1,25 @@
+# Python virtual environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+
+# Local PostgreSQL exports and backups
+*.dump
+*.backup
+*.bak
+
+# Local-only workbook/data and network note
+/테스트 데이터/
+/거래명세서_테스트DB.xlsx
+/서버접속정보.txt
+
+# Legacy prototype files kept locally for reference
+/거래명세서_CRUD_프로토타입.html
+/Code.gs
+/CRUD_프로토타입_설정.md
